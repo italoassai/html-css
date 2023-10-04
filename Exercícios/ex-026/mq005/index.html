@@ -10,8 +10,8 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <i id="menu" class="fa-solid fa-bars"></i>
-         <menu>
+        <i id="menu" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+         <menu id="options">
                   <ul>
                     <li><a href="#">Opção 1</a></li>
                     <li><a href="#">Opção 2</a></li>
@@ -38,5 +38,23 @@
                        </article>
                </main>
     
+               <script>   
+               function clickMenu(){
+                if(options.style.display == 'block') {
+                    options.style.display = 'none'
+                } else(options.style.display = 'block')
+
+                    
+                
+            
+               }
+                
+               
+        
+                
+
+
+
+               </script>
 </body>
 </html>
